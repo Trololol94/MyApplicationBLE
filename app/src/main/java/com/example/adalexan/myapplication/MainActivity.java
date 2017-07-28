@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     final BluetoothManager bluetoothManager =
             (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
 
-    mBluetoothAdapter = bluetoothManager.getAdapter();
+    mBluetoothAdapter.
 
     // Ensures Bluetooth is available on the device and it is enabled. If not,
     // displays a dialog requesting user permission to enable Bluetooth.
